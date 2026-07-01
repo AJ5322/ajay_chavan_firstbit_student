@@ -1,0 +1,36 @@
+package newdemo;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		
+		
+		int num=121;
+		int original = num;
+		int reverse = 0;
+		
+		
+		while(num > 0)
+		{
+			//get the last digit of the nummber
+			int digit = num % 10;
+			
+			//addd the digit to the revered number
+			reverse = reverse * 10 + digit;
+			
+			//remove the last digit from the original number
+			num = num / 10;
+		}
+		
+		if(original == reverse)
+		{
+			System.out.println("Palindrome number");
+		}
+		else
+		{
+			System.out.println("not a palindrome");
+		}
+		
+	}
+
+}
