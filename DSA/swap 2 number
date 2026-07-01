@@ -1,0 +1,33 @@
+package newdemo;
+
+public class Swaptwonumber {
+
+	public static void main(String[] args) {
+		
+		//Initialize two variables
+		int a=10;
+		int b=20;
+		
+		
+		//Display values before swapping
+		System.out.println("Before swapping");
+		System.out.println("a = " + a);
+		System.out.println("b = " + b);
+		
+		//store value of a in temporary variable
+		int temp = a;
+		
+		//Assign value of b to a
+		a = b;
+		
+		//Assign value of temp(old a value) to b
+		b = temp;
+		
+		//Display values after swapping
+		System.out.println("After Swapping:");
+		System.out.println("a = " + a);
+		System.out.println("b = " + b);
+		
+	}
+
+}
