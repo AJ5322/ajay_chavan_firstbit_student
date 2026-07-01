@@ -1,0 +1,26 @@
+package newdemo;
+
+public class Stringreverse {
+
+	public static void main(String[] args) {
+	
+		//store the string "java" in the variable 'str'
+		String str = "java";
+		
+		//print the original string
+		System.out.println("Original String : "+ str );
+		
+		
+		//print the heading
+		System.out.println("reverse string:");
+		
+		//loop starts from the character and moves to the first character
+		for(int i = str.length() -1; i>=0; i--)
+		{
+			//print one character at index 'i'
+			System.out.print(str.charAt(i));
+		}
+
+	}//end of main method
+
+}//end of class
