@@ -1,0 +1,24 @@
+package newdemo;
+
+public class evenodd {
+
+	public static void main(String[] args) {
+		
+		//store number 10 in variable a
+		int a=10;
+		
+		//check if remainder after dividing by 2 is 0
+		if(a % 2 == 0)
+		{
+			//execute if no is even
+			System.out.println("no is even");
+		}
+		else
+		{
+			//execute if no is odd
+			System.out.println("no is odd");
+		}
+
+	}
+
+}
