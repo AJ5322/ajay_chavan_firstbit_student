@@ -1,0 +1,39 @@
+package newdemo;
+
+public class evenoddcount {
+
+	public static void main(String[] args) {
+		
+		int even = 0;//variable to count even number 
+		int odd=0;//variable to count odd number
+		
+		//array of integer numbers
+		int arr[] = {1,6,8,7,5};
+		
+		
+		//loop through each element of the array
+		for(int i = 0; i < arr.length; i++)
+		{
+			//check whether the current number is even
+			if(arr[i] % 2 == 0)
+			{
+				//increase even count by 1
+				even++;
+			}
+			else
+			{
+				//increase odd count by 1
+				odd++;
+			}
+			
+		}
+		
+		//display the total number of even
+		System.out.println("even no is: "+even);
+
+		//display the total number of odd
+		System.out.println("odd no is :"+odd);
+
+	}
+
+}
