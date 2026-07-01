@@ -1,0 +1,39 @@
+package newdemo;
+
+public class Fibonacci {
+
+	public static void main(String[] args) {
+	
+		//number of fibonacci terms to print
+		int n = 10;
+		
+		//first fibonacci number
+		int first = 0;
+		
+		//second fibonacci number
+		int second =1;
+		
+		//print heading
+		System.out.println("Fibonacci series:");
+		
+		//Loop to print fibonacci numbers
+		//(Runs form 1 to 9 because condition is i<n)
+		for(int i=1 ; i<n ; i++ )
+		{
+			//print the current fibonacci number 
+			System.out.println(first + " ");
+			
+			//calculate the next fibonacci number
+			int next = first + second;
+			
+			//move second number to first
+			first = second;
+			
+			//move second number to first
+			second=next;
+			
+		}
+
+	}
+
+}
