@@ -1,0 +1,26 @@
+package newdemo;
+
+public class Factorial {
+
+	public static void main(String[] args) {
+		
+		//number whose factorial we want to find
+		int num = 5;
+		
+		//store factorial result starts from 1
+		int factorial = 1;
+		
+		//loop from 1 to num
+		for(int i=1 ; i<=num ; i++)
+		{
+			//multiply factorial by current value of i
+			factorial = factorial * i;
+		}
+		
+		//display the factorial result
+		System.out.println("factorial of "+ num + " is " + factorial);
+		
+
+	}
+
+}
