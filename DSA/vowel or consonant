@@ -1,0 +1,25 @@
+package newdemo;
+
+public class vowelconsonant {
+
+	public static void main(String[] args) {
+		
+		//decalres a character variable and assign the value 'z'
+		char ch='z';
+		
+		//check whether the character is vowel
+		if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||
+		   ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+		{
+			//executes if the character is a vowel
+			System.out.println(ch + " = is a vowel");
+		}
+		else
+		{
+			//executes if the character is consonant
+			System.out.println(ch   + " = is a consonant" );
+		}
+		
+	}
+
+}
